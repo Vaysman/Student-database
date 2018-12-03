@@ -1,0 +1,68 @@
+table {
+  border: 3px solid #a49788;
+  background-color: #eaecd9;
+  width: 100%;
+  text-align: center;
+  
+  }
+table td, table th {
+  border: 1px solid #948473;
+  background-color: #eaecd9;
+  padding: 6px 6px;
+  font-size: 20px;
+}
+ tbody td {
+  font-size: 20px;
+ 
+}
+ thead {
+  background: #948473;
+  background: -moz-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+  background: -webkit-linear-gradient(top, #afa396 0%, #9e9081 66%, #948473 100%);
+  background: linear-gradient(to bottom, #afa396 0%, #9e9081 66%, #948473 100%);
+}
+ thead th {
+  font-size: 17px;
+  font-weight: bold;
+  color: #F0F0F0;
+  text-align: left;
+  border-left: 1px  #948473;
+}
+ th:first-child {
+  border-left: none;
+}
+
+
+#wrapper {width: 100%; margin-top: 0px; }
+#header {width: 100%; background: #c0c0c0; margin-top: 0px; padding:15px 0px 15px 15px;}
+#header h2 {width: 100%; margin:auto; text-align: center; color: #FFFFFF;}
+#container {width: 100%; margin:auto}
+#container h3 {color: #000;}
+#container #content {margin-top: 20px;}
+
+.add-student-button {
+	border: 1px solid #666; 
+	border-radius: 2px; 
+	padding: 4px; 
+	font-size: 15px;
+	font-weight: bold;
+	width: 150px; 
+	padding: 4px 10px; 
+	
+	margin-bottom: 15px;
+	background: #cccccc;
+}
+
+.search-student-button {
+	border: 1px solid #666; 
+	border-radius: 2px; 
+	padding: 4px; 
+	font-size: 15px;
+	font-weight: bold;
+	width: 150px; 
+	padding: 4px 10px; 
+	
+	margin-bottom: 15px;
+	background: #cccccc;
+}
+
